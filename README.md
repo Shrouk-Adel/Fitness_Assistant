@@ -1,1 +1,1 @@
-# LLM_ZoomCamp
+# Fitness_Assistant
