@@ -80,7 +80,7 @@ We use Flask for serving the application as an API.
 The Indexing script is in [`Indexing.py`](fitness_assistant/Indexing.py).
 
 ### Rag Flow
-The rag_flow script is in rag_flow.py
+The rag_flow script is in [`rag_flow.py`](fitness_assistant/rag_flow.py
 
 ## Experiments
 
