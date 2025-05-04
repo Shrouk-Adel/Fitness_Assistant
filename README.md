@@ -52,7 +52,7 @@ The dataset was generated using ChatGPT and contains 207 records. It serves as t
 - Langchain
 - chromadb
 - ollama
-- Flask as the API interface (see [Background](#background) for more information on Flask)
+- Flask as the API interface
 - Gemini as an LLM
 
 ## Preparation
@@ -80,7 +80,7 @@ We use Flask for serving the application as an API.
 The Indexing script is in [`Indexing.py`](fitness_assistant/Indexing.py).
 
 ### Rag Flow
-The rag_flow script is in [`rag)flow.py`](fitness_assistant/rag_flow.py).
+The rag_flow script is in rag_flow.py
 
 ## Experiments
 
@@ -100,7 +100,7 @@ of our RAG flow.
 -we used Gemini 1.5 flash
 
 
-### Mdels
+### Models
 - Embedding ```plutonioumguy/bge-m3```
 - text generation ```models/gemini-2.0-flash-lite```
 - LLM as a Judge ```models/gemini-1.5-flash```
