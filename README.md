@@ -70,8 +70,52 @@ pip install -r req.txt
 ```
 
  
-## Running the application
+### Interface
 
- 
+We use Flask for serving the application as an API.
+
+
+### Indexing
+
+The Indexing script is in [`Indexing.py`](fitness_assistant/Indexing.py).
+
+### Rag Flow
+The rag_flow script is in [`rag)flow.py`](fitness_assistant/rag_flow.py).
+
+## Experiments
+
+For experiments, we use Jupyter notebooks.
+They are in the [`notebooks`](notebooks/) folder
+
+We have the following notebooks:
+
+- [`rag.ipynb`](notebooks/rag-test.ipynb): The RAG flow and evaluating the system.
+- [`evaluation-data-generation.ipynb`](notebooks/evaluation-data-generation.ipynb): Generating the ground truth dataset for retrieval evaluation.
+
+ ### RAG flow evaluation
+
+We used the LLM-as-a-Judge metric to evaluate the quality
+of our RAG flow.
+
+-we used Gemini 1.5 flash
+
+
+### Mdels
+- Embedding ```plutonioumguy/bge-m3```
+- text generation ```models/gemini-2.0-flash-lite```
+- LLM as a Judge ```models/gemini-1.5-flash```
+
+### Flask
+
+We use Flask for creating the API interface for our application.
+It's a web application framework for Python: we can easily
+create an endpoint for asking questions and use web clients
+(like `curl` or `requests`) for communicating with it.
+
+In our case, we can send questions to `http://localhost:5000/question`.
+
+For more information, visit the [official Flask documentation](https://flask.palletsprojects.com/).
+
+
 
  
