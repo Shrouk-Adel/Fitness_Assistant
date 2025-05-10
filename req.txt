@@ -8,11 +8,15 @@ elasticsearch
 ipywidgets
 langchain_community
 langchain
-chromadb
 ipykernel
 jupyter
 langchain-google-genai
 google-generativeai
 json_repair
 flask
-db
+gunicorn 
+langchain-ollama
+langchain-chroma
+psycopg2-binary
+langchain-groq
+chromadb
