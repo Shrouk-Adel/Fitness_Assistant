@@ -245,7 +245,6 @@ The code for the application is in the [`fitness_assistant`](fitness_assistant/)
 
 - [`app.py`](fitness_assistant/app.py) - the Flask API, the main entrypoint to the application
 - [`rag_flow.py`](fitness_assistant/rag_flow.py) - the main RAG logic for building the retrieving the data and building the prompt
-- [`ingest.py`](fitness_assistant/ingest.py) - loading the data into the knowledge base
 - [`Indexing.py`](fitness_assistant/Indexing.py) - vectorstore database and retriever
 - [`db.py`](fitness_assistant/db.py) - the logic for logging the requests and responses to postgres
 - [`db_prep.py`](fitness_assistant/db_prep.py) - the script for initializing the database
@@ -314,13 +313,7 @@ In our case, we can send questions to `http://localhost:5000/question`.
 For more information, visit the [official Flask documentation](https://flask.palletsprojects.com/).
 
 
-## Acknowledgements 
-
-I thank the course participants for all your energy
-and positive feedback as well as the course sponsors for
-making it possible to run this course for free. 
-
-I hope you enjoyed doing the course =)
+ 
 
 
  
